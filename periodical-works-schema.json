@@ -1,0 +1,93 @@
+{
+  "fields": [
+    {
+      "name": "fulltext_url",
+      "type": "string",
+      "description": "link to digitised viewer"
+    },
+    {
+      "name": "title",
+      "type": "string",
+      "description": "title of the periodical; multiple values separated by | symbol"
+    },
+    {
+      "name": "work_url",
+      "type": "string",
+      "description": "link to work record in Trove; multiple values separated by | symbol"
+    },
+    {
+      "name": "work_type",
+      "type": "string",
+      "description": "Trove work format, eg: 'Book'; multiple values separated by | symbol"
+    },
+    {
+      "name": "contributor",
+      "type": "string",
+      "description": "multiple values separated by | symbol"
+    },
+    {
+      "name": "publisher",
+      "type": "string",
+      "description": "multiple values separated by | symbol"
+    },
+    {
+      "name": "date",
+      "type": "string",
+      "description": "multiple values separated by | symbol"
+    },
+    {
+      "name": "type",
+      "type": "string",
+      "description": "eg: 'text'; multiple values separated by | symbol"
+    },
+    {
+      "name": "format",
+      "type": "string",
+      "description": "eg: 'volume'; multiple values separated by | symbol"
+    },
+    {
+      "name": "extent",
+      "type": "string",
+      "description": "size or physical dimensions; multiple values separated by | symbol"
+    },
+    {
+      "name": "language",
+      "type": "string",
+      "description": "publication language; multiple values separated by | symbol"
+    },
+    {
+      "name": "subject",
+      "type": "string",
+      "description": "associated subject headings; multiple values separated by | symbol"
+    },
+    {
+      "name": "spatial",
+      "type": "string"
+    },
+    {
+      "name": "is_part_of",
+      "type": "string",
+      "description": "collections or series this publication is part of; multiple values separated by | symbol"
+    },
+    {
+      "name": "identifier",
+      "type": "string",
+      "description": "library identifiers; multiple values separated by | symbol"
+    },
+    {
+      "name": "rights",
+      "type": "string",
+      "description": "copyright and licensing information; multiple values separated by | symbol"
+    },
+    {
+      "name": "fulltext_url_text",
+      "type": "string",
+      "description": "text of link to digitised book viewer"
+    },
+    {
+      "name": "catalogue_url",
+      "type": "string",
+      "description": "link to NLA catalogue; multiple values separated by | symbol"
+    }
+  ]
+}

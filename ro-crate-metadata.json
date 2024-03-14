@@ -1,0 +1,201 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "datePublished": "2024-03-14",
+            "description": "A GLAM Workbench dataset",
+            "distribution": {
+                "@id": "https://github.com/GLAM-Workbench/trove-periodical-works-data/archive/refs/heads/main.zip"
+            },
+            "hasPart": [
+                {
+                    "@id": "https://github.com/GLAM-Workbench/trove-journals/blob/master/Create-digitised-journals-list.ipynb"
+                },
+                {
+                    "@id": "periodical-works.csv"
+                },
+                {
+                    "@id": "periodical-works-schema.json"
+                }
+            ],
+            "isBasedOn": {
+                "@id": "https://github.com/GLAM-Workbench/trove-journals/"
+            },
+            "license": {
+                "@id": "https://spdx.org/licenses/MIT"
+            },
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-journals/csv-digital-journals/"
+            },
+            "name": "trove-periodical-works-data",
+            "url": "https://github.com/GLAM-Workbench/trove-periodical-works-data",
+            "workExample": []
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            },
+            "license": {
+                "@id": "https://creativecommons.org/publicdomain/zero/1.0/"
+            }
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-journals/blob/master/Create-digitised-journals-list.ipynb",
+            "@type": [
+                "File",
+                "SoftwareSourceCode"
+            ],
+            "author": [
+                {
+                    "@id": "https://orcid.org/0000-0001-7956-4498"
+                }
+            ],
+            "codeRepository": "https://github.com/GLAM-Workbench/trove-journals/",
+            "conformsTo": {
+                "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+            },
+            "description": "This notebook creates a list of digitised periodicals in Trove by searching for the digital identifier string `nla.obj` and limiting the results to periodicals. Before the Trove API introduced the `/magazine/titles` endpoint, this was the only way to generate such a list. This method produces slightly different results to the new API endpoint, and it might be useful to compare the two to see what each method misses.",
+            "encodingFormat": "application/x-ipynb+json",
+            "mainEntityOfPage": {
+                "@id": "https://glam-workbench.net/trove-journals/create-list-digitised-journals/"
+            },
+            "name": "Create a list of Trove's digital periodicals",
+            "programmingLanguage": {
+                "@id": "https://www.python.org/downloads/release/python-31012/"
+            },
+            "url": "https://github.com/GLAM-Workbench/trove-journals/blob/master/Create-digitised-journals-list.ipynb"
+        },
+        {
+            "@id": "periodical-works.csv",
+            "@type": [
+                "File",
+                "Dataset"
+            ],
+            "conformsTo": {
+                "@id": "periodical-works-schema.json"
+            },
+            "contentSize": 612617,
+            "dateModified": "2024-03-13",
+            "description": "This dataset contains version records describing digitised periodicals found by searching for the digital identifier string `nla.obj` and limiting the results to periodicals. Duplicate records were merged.",
+            "encodingFormat": "text/csv",
+            "name": "periodical-works.csv",
+            "sdDatePublished": "2024-03-14",
+            "size": 930,
+            "url": "https://github.com/GLAM-Workbench/trove-periodical-works-data/raw/main/periodical-works.csv"
+        },
+        {
+            "@id": "https://orcid.org/0000-0001-7956-4498",
+            "@type": "Person",
+            "mainEntityOfPage": "https://timsherratt.au",
+            "name": "Sherratt, Tim",
+            "orcid": "https://orcid.org/0000-0001-7956-4498"
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-journals/",
+            "@type": "Dataset",
+            "name": "trove-journals",
+            "url": "https://github.com/GLAM-Workbench/trove-journals/"
+        },
+        {
+            "@id": "https://github.com/GLAM-Workbench/trove-periodical-works-data/archive/refs/heads/main.zip",
+            "@type": "DataDownload",
+            "name": "Download repository as zip",
+            "url": "https://github.com/GLAM-Workbench/trove-periodical-works-data/archive/refs/heads/main.zip"
+        },
+        {
+            "@id": "https://spdx.org/licenses/MIT",
+            "@type": "CreativeWork",
+            "name": "MIT License",
+            "url": "https://spdx.org/licenses/MIT.html"
+        },
+        {
+            "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
+            "@type": "CreativeWork",
+            "name": "CC0 Public Domain Dedication",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+            "@id": "http://rightsstatements.org/vocab/NKC/1.0/",
+            "@type": "CreativeWork",
+            "description": "The organization that has made the Item available reasonably believes that the Item is not restricted by copyright or related rights, but a conclusive determination could not be made.",
+            "name": "No Known Copyright",
+            "url": "http://rightsstatements.org/vocab/NKC/1.0/"
+        },
+        {
+            "@id": "http://rightsstatements.org/vocab/CNE/1.0/",
+            "@type": "CreativeWork",
+            "description": "The copyright and related rights status of this Item has not been evaluated.",
+            "name": "Copyright Not Evaluated",
+            "url": "http://rightsstatements.org/vocab/CNE/1.0/"
+        },
+        {
+            "@id": "https://www.python.org/downloads/release/python-31012/",
+            "@type": [
+                "ComputerLanguage",
+                "SoftwareApplication"
+            ],
+            "name": "Python 3.10.12",
+            "url": "https://www.python.org/downloads/release/python-31012/",
+            "version": "3.10.12"
+        },
+        {
+            "@id": "https://glam-workbench.net/trove-journals/create-list-digitised-journals/",
+            "@type": "CreativeWork",
+            "isPartOf": {
+                "@id": "https://glam-workbench.net"
+            },
+            "name": "Create a list of Trove's digitised journals",
+            "url": "https://glam-workbench.net/trove-journals/create-list-digitised-journals/"
+        },
+        {
+            "@id": "#Create-digitised-journals-list_run_0",
+            "@type": "CreateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
+            },
+            "endDate": "2024-03-13",
+            "instrument": {
+                "@id": "https://github.com/GLAM-Workbench/trove-journals/blob/master/Create-digitised-journals-list.ipynb"
+            },
+            "name": "Run of notebook: Create-digitised-journals-list.ipynb",
+            "result": [
+                {
+                    "@id": "periodical-works.csv"
+                }
+            ]
+        },
+        {
+            "@id": "https://glam-workbench.net/trove-journals/csv-digital-journals/",
+            "@type": "CreativeWork",
+            "isPartOf": {
+                "@id": "https://glam-workbench.net"
+            },
+            "name": "CSV formatted list of journals available from Trove in digital form",
+            "url": "https://glam-workbench.net/trove-journals/csv-digital-journals/"
+        },
+        {
+            "@id": "periodical-works-schema.json",
+            "@type": [
+                "File"
+            ],
+            "conformsTo": {
+                "@id": "https://specs.frictionlessdata.io/table-schema/"
+            },
+            "encodingFormat": "application/json",
+            "name": "Frictionless Table Schema for periodical-works.csv dataset",
+            "url": "https://github.com/GLAM-Workbench/trove-periodical-works-data/raw/main/periodical-works-schema.json"
+        }
+    ]
+}
