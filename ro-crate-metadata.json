@@ -9,8 +9,8 @@
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
-            "datePublished": "2024-03-14",
-            "description": "A GLAM Workbench dataset",
+            "datePublished": "2024-03-18",
+            "description": "This dataset contains version records describing digitised periodicals found by searching for the digital identifier string `nla.obj` and limiting the results to periodicals. Duplicate records were merged.",
             "distribution": {
                 "@id": "https://github.com/GLAM-Workbench/trove-periodical-works-data/archive/refs/heads/main.zip"
             },
@@ -35,7 +35,7 @@
                 "@id": "https://glam-workbench.net/trove-journals/csv-digital-journals/"
             },
             "name": "trove-periodical-works-data",
-            "url": "https://github.com/GLAM-Workbench/trove-periodical-works-data",
+            "url": "https://github.com/GLAM-Workbench/trove-periodical-works-data/",
             "workExample": []
         },
         {
@@ -62,6 +62,7 @@
                     "@id": "https://orcid.org/0000-0001-7956-4498"
                 }
             ],
+            "category": "Harvesting metadata",
             "codeRepository": "https://github.com/GLAM-Workbench/trove-journals/",
             "conformsTo": {
                 "@id": "https://purl.archive.org/textcommons/profile#Notebook"
@@ -72,10 +73,12 @@
                 "@id": "https://glam-workbench.net/trove-journals/create-list-digitised-journals/"
             },
             "name": "Create a list of Trove's digital periodicals",
+            "position": 3,
             "programmingLanguage": {
                 "@id": "https://www.python.org/downloads/release/python-31012/"
             },
-            "url": "https://github.com/GLAM-Workbench/trove-journals/blob/master/Create-digitised-journals-list.ipynb"
+            "url": "https://github.com/GLAM-Workbench/trove-journals/blob/master/Create-digitised-journals-list.ipynb",
+            "workExample": []
         },
         {
             "@id": "periodical-works.csv",
@@ -88,10 +91,9 @@
             },
             "contentSize": 612617,
             "dateModified": "2024-03-13",
-            "description": "This dataset contains version records describing digitised periodicals found by searching for the digital identifier string `nla.obj` and limiting the results to periodicals. Duplicate records were merged.",
             "encodingFormat": "text/csv",
             "name": "periodical-works.csv",
-            "sdDatePublished": "2024-03-14",
+            "sdDatePublished": "2024-03-18",
             "size": 930,
             "url": "https://github.com/GLAM-Workbench/trove-periodical-works-data/raw/main/periodical-works.csv"
         },
