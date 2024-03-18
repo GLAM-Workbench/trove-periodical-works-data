@@ -62,7 +62,8 @@
     },
     {
       "name": "spatial",
-      "type": "string"
+      "type": "string",
+      "description": "related places; multiple values separated by | symbol "
     },
     {
       "name": "is_part_of",
